@@ -17,7 +17,7 @@ Bộ phận HR của công ty công nghệ nhận rất nhiều email ứng tuy�
 2. Mỗi lượt, gửi nội dung email ứng tuyển thô làm tin nhắn người dùng.
 3. Lấy mảng JSON ở cuối kết quả để nạp vào database (kiểm tra bằng công cụ Validate JSON, mục 6).
 
-## 4. PROMPT HỆ THỐNG (sao chép nguyên khối bên dưới)
+## 4. PROMPT HỆ THỐNG 
 
 ````text
 # C - CONTEXT (Bối cảnh)
@@ -109,7 +109,7 @@ Hi team, mình là lê hoàng minh, vừa tốt nghiệp nên chưa có kinh ngh
 [{"name": "Lê Hoàng Minh", "phone": "+84987654321", "email": null, "position": "Data Analyst", "experience_years": 0, "skills": ["Excel", "Power BI", "Python", "pandas"]}]
 ````
 
-## 5. Giải thích thiết kế (để học và trình bày)
+## 5. Giải thích thiết kế
 
 | Thành phần CREATE | Vai trò trong prompt | Điểm then chốt |
 |---|---|---|
